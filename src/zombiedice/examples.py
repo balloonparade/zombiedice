@@ -36,7 +36,17 @@ class MinNumShotgunsThenStopsZombie(object):
 
             shotguns += diceRollResults[SHOTGUN] # increase shotguns by the number of shotgun die rolls.
 
+class ThreeBrainZombie(object):
 
+    def __init__(self, name):
+        self.name = name
+
+
+    def turn(self, gameState):
+        if brains < 3:
+            roll()
+            
+            
 class MinNumShotgunsThenStopsOneMoreZombie(object):
     """This bot keeps rolling until it has rolled a minimum number of shotguns, then it rolls one more time."""
     def __init__(self, name, minShotguns=2):
