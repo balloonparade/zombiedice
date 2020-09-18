@@ -653,6 +653,7 @@ def demo():
         examples.MinNumShotgunsThenStopsZombie(name='Stop at 2 Shotguns', minShotguns=2),
         examples.MinNumShotgunsThenStopsZombie(name='Stop at 1 Shotgun', minShotguns=1),
         examples.AlwaysRollsTwiceZombie(name='Roll Twice'),
+        examples.ThreeBrainZombie(name='Stop at Three Brains'),
         # Add any other zombie players here.
     )
 
